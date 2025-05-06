@@ -9,11 +9,22 @@
 body {
   align-items: center;
   background: linear-gradient(45deg, #e0b1ea 0%,#74238a 100%);
+  background-image: url(/images/fundomusical.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
+}
+
+.tecladoResponsivo {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: max-content;
 }
 
 h1 {
